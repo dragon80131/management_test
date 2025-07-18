@@ -20,7 +20,7 @@ include_once _CLS_DIR . "SPUSClient.cls";
 include_once _CLS_DIR . "SPUSBuilding.cls";
 
 include_once "./include/common_489.php";
-
+echo("this is common file change thank you");
 
 // データベースコネクト
 $myDB = new SPFWDatabase(_MAIN_DB, _HOST_NAME, _USER_NAME, _PASSWD, FALSE);

@@ -58,7 +58,7 @@ include_once _CLS_DIR . "SPUSBuilding.cls";
 			$UserKbn 		= $myUser->UserKbn;
 			unset($myUser);
 	}
-
+echo("this is a common file change 2");
 	$IfWorker = $UserKbn == 3;
 	$IfDeveloper	= $UserKbn != 3;
 	$IfSP 			= $m == 1; // スマホ用
