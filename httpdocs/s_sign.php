@@ -20,6 +20,7 @@ include_once _CLS_DIR . "SPUSClient.cls";
 include_once _CLS_DIR . "SPUSBuilding.cls";
 
 include_once "./include/common_489.php";
+echo("this is common file change thank you");
 
 echo ("this is company 1's modification");
 echo ("ok");
