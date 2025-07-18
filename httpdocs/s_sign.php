@@ -22,6 +22,8 @@ include_once _CLS_DIR . "SPUSBuilding.cls";
 include_once "./include/common_489.php";
 echo("this is common file change thank you");
 
+echo ("this is company 1's modification");
+echo ("ok");
 // データベースコネクト
 $myDB = new SPFWDatabase(_MAIN_DB, _HOST_NAME, _USER_NAME, _PASSWD, FALSE);
 if (!$myDB->Connection)
