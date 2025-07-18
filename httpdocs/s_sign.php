@@ -39,7 +39,8 @@ if ($rKey == NULL) {
 	header('Location: ' . $URL);
 	exit;
 }
-
+echo("this is a company 2 file");
+echo("thank you");
 #アドレス取得　スマホからの本WEBアクセスを不正と表示する。
 $YourDomain = $_SERVER["REMOTE_ADDR"];
 $Today = date("Y-m-d");
