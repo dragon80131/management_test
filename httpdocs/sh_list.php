@@ -18,7 +18,7 @@ include_once "D:/xampp/htdocs/kotei3/SPFW/inc/setting.properties";
 	// include_once _CLS_DIR . "SPUSHenkoDate.cls";
 include_once _CLS_DIR . "SPUSBuilding.cls";
 
-
+echo("this is a compnay2 file");
 
 	// データベースコネクト
 	$myDB = new SPFWDatabase(_MAIN_DB, _HOST_NAME, _USER_NAME, _PASSWD, FALSE);
